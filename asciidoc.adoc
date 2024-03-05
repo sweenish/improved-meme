@@ -9,9 +9,19 @@ endif::[]
 :toc:
 :toc-placement!:
 
-ASCIIDoctor is another standard that's more fomal than Markdown, and has
+[.lead]
+AsciiDoc is another standard that's more fomal than Markdown, and has
 capabilities for technial writing that Markdown does not.
 
 toc::[]
 
-= ASCIIDoctor is also supported
+= AsciiDoc is also supported
+It is similar to Markdown, but does differ enough that it requires a learning
+curve. Some examples:
+
+.Table Markdown vs. AsciiDoc
+|===
+| AsciiDoc | Markdown
+| ``*bold*``
+| ``**bold**``
+
