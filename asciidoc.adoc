@@ -1,0 +1,17 @@
+ifdef::env-github[]
+:caution-caption: :fire:
+:important-caption: :heavy_exclamation_mark:
+:note-caption: :information_source:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
+
+:toc:
+:toc-placement!:
+
+ASCIIDoctor is another standard that's more fomal than Markdown, and has
+capabilities for technial writing that Markdown does not.
+
+toc::[]
+
+= ASCIIDoctor is also supported
