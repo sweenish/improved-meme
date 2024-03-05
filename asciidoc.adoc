@@ -10,18 +10,36 @@ endif::[]
 :toc-placement!:
 
 [.lead]
-AsciiDoc is another standard that's more fomal than Markdown, and has
-capabilities for technial writing that Markdown does not.
+https://asciidoc.org/[AsciiDoc] is another standard that's more fomal than Markdown, and has
+capabilities for technial writing that Markdown does not. While there is a
+https://gitlab.eclipse.org/eclipse/asciidoc-lang/asciidoc-lang[specification], I have
+personally found that the documentation at https://docs.asciidoctor.org/asciidoc/latest/[AsciiDoctor]
+to be quite good.
 
 toc::[]
 
 = AsciiDoc is also supported
 It is similar to Markdown, but does differ enough that it requires a learning
-curve. Some examples:
+curve. Some basic examples:
 
-.Table Markdown vs. AsciiDoc
+.Constrained (whole word) AsciiDoc vs. Markdown
 |===
 | AsciiDoc | Markdown
-| ``*bold*``
-| ``**bold**``
+| `$$*bold*$$`
+| `$$**bold**$$`
 
+| `$$_$$emphasis$$_$$`
+| `$$*emphasis*$$`
+
+| `$$`mono/literal`$$`
+| `$$`mono/literal`$$`
+|===
+
+TIP: These admonitions are not a Markdown feature.
+
+These are some of the more basic examples of differences. In my experience, Asciidoc
+is generally more verbose than Markdown, and it can seem weird at first. But for
+technical documents, it might be the better standard to adopt under the hood.
+
+While math and other things are supported by AsciiDoc, GitHub at least doesn't render it
+natively/automatically.
