@@ -19,7 +19,8 @@ Plaintext alignment of the pipes (`|`) is not necessary, but it helps the plaint
 
 ## Diagrams
 
-Diagrams can be created using [Mermaid](https://mermaid.js.org/) code blocks.
+Diagrams can be created using [Mermaid](https://mermaid.js.org/) code blocks. It is worth noting that the diagrams are
+not rendered in the beta editor. 
 
 ```mermaid
 ---

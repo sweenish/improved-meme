@@ -11,14 +11,15 @@ endif::[]
 
 [.lead]
 https://asciidoc.org/[AsciiDoc] is another standard that's more fomal than Markdown, and has
-capabilities for technial writing that Markdown does not. While there is a
+capabilities for technical writing that Markdown does not. While there is a
 https://gitlab.eclipse.org/eclipse/asciidoc-lang/asciidoc-lang[specification], I have
 personally found that the documentation at https://docs.asciidoctor.org/asciidoc/latest/[AsciiDoctor]
 to be quite good.
 
 toc::[]
 
-= AsciiDoc is also supported
+== AsciiDoc is also supported
+
 It is similar to Markdown, but does differ enough that it requires a learning
 curve. Some basic examples:
 
